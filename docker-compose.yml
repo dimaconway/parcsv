@@ -1,0 +1,10 @@
+version: "3"
+services:
+  parcsv:
+    image: custom_php_zts:latest
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/parcsv/
+    working_dir: /parcsv/
