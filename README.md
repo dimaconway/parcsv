@@ -1,5 +1,6 @@
-Run example:
-
+Generate CSV files:
 ```bash
-docker-compose run parcsv php hello.php
+docker-compose run parcsv php generate.php
 ```
+
+
